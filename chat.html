@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>static Chat</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <script src="all.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+  </head>
+  <body>
+      <div class="head">
+    <header>
+      <a href="http://localhost:8158/index.html"><div>
+      <span class="fas fa-arrow-left"></span>
+      <img src="IMG_20201009_084631.jpg" alt="" class="profile_picture2"/>
+   
+      </div></a>
+         <p class="line2">0574239447</p>
+    </header>
+    <div class="icons">
+      <span class="material-icons">search</span>
+      <span class="material-icons">more_vert</span>
+    </div>
+    </div>
+<span id="lightblue"></span>
+<div id="content"></div>
+    <div id="bottom">
+         <input type="text" placeholder="type a message" onfocus="Update();"onblur="Normal();"/><button type="submit" onclick="MessageDate()"><span class="material-icons" id="span">mic</span></button>
+    </div>
+      
+  <script src="Chat.js"></script>
+ </body>
+</html>
